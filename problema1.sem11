@@ -1,0 +1,14 @@
+
+#Tema:Estructuras repetitivas para algoritmos en pseudocodigos y en Python
+
+
+#Ejemplo de uso del bucle WHILE 
+#Con while se puede hacer un control no solo sobre conteos, sino que se puede controlar otro tipo de condiciones, como puede ser un string.
+
+salir = input('introduce una letra ')
+while salir != 'a':
+    print('La letra no es la que busco')
+    salir = input('introduce una letra ')
+print ('la letra es a, por eso salgo del bucle')
+
+#while:El bucle while de Python hace que se ejecute un bloque de código repetidamente mientras una condición sea verdadera
